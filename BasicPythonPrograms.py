@@ -83,7 +83,7 @@ year=int(input("Enter a year: "))
 if year%4==0:
     if year%100==0:
         if year%400==0:
-         print("The year is a leap year")
+            print("The year is a leap year")
         else:
             print("The year is a common year") 
     else:
@@ -102,43 +102,32 @@ if shape==1:
     print("Perimeter of rectangle is: ",perimeter1)
     print("Area of rectangle is: ",area1)
 if shape==2:
-      side1=(int(input("Enter side: "))) 
-      perimeter2=4*side1
-      area2=side1*side1
-      print("Perimeter of square is: ",perimeter2)
-      print("Area of rectangle is: ",area2)
+    side1=(int(input("Enter side: "))) 
+    perimeter2=4*side1
+    area2=side1*side1
+    print("Perimeter of square is: ",perimeter2)
+    print("Area of rectangle is: ",area2)
 if shape==3:
-         radius=(int(input("Enter radius:")))    
-         perimeter3=2*3.14*radius
-         area3=3.14*radius*radius
-         print("Perimeter of circle is: ",perimeter3)
-         print("Area of circle is: ",area3)
+    radius=(int(input("Enter radius:")))    
+    perimeter3=2*3.14*radius
+    area3=3.14*radius*radius
+    print("Perimeter of circle is: ",perimeter3)
+    print("Area of circle is: ",area3)
 if shape==4:
-             side2=(int(input("Enter side of a rhombus: ")))
-             d1=(int(input("Enter diagonal1: ")))
-             d2=(int(input("Enter diagonal2: ")))
-             perimeter4=4*side2
-             area4=(d1*d2)/2
-             print("Perimeter of rhombus is: ",perimeter4)
-             print("Area of rhombus is: ",area4)
+    side2=(int(input("Enter side of a rhombus: ")))
+    d1=(int(input("Enter diagonal1: ")))
+    d2=(int(input("Enter diagonal2: ")))
+    perimeter4=4*side2
+    area4=(d1*d2)/2
+    print("Perimeter of rhombus is: ",perimeter4)
+    print("Area of rhombus is: ",area4)
 if shape==5:
-                 b=(int(input("Enter base: ")))
-                 h=(int(input("Enter height: ")))
-                 thirdside=(int(input("Enter third side: ")))
-                 perimeter5=b+h+thirdside
-                 area5=1/2*b*h
-                 print("Perimeter of triangle is: ",perimeter5)
-                 print("Area of triangle is: ",area5)
-
-    
-
-
-
-
-
-
-
-
-
+    b=(int(input("Enter base: ")))
+    h=(int(input("Enter height: ")))
+    thirdside=(int(input("Enter third side: ")))
+    perimeter5=b+h+thirdside
+    area5=1/2*b*h
+    print("Perimeter of triangle is: ",perimeter5)
+    print("Area of triangle is: ",area5)
 
 
